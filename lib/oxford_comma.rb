@@ -10,6 +10,6 @@ def oxford_comma(strings)
     initial_words = strings.join(", ")
     "#{initial_words}, and #{last_word}"
   else
-    strings.join("and")
+    strings.join(" and ")
   end
 end
