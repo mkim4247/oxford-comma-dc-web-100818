@@ -6,7 +6,6 @@
 
 def oxford_comma(strings)
   last_word = strings.pop
-  strings.join
-  puts strings
-  puts last_word
+  initial_words = strings.join(", ")
+  puts
 end
