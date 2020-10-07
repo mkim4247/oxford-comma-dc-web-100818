@@ -8,7 +8,7 @@ def oxford_comma(strings)
   if strings.length > 2
     last_word = strings.pop
     initial_words = strings.join(", ")
-    "#{initial_words}, #{last_word}"
+    "#{initial_words}, and#{last_word}"
   else
     strings.join("and")
   end
