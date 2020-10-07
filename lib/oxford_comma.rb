@@ -5,8 +5,8 @@
 #concat both strings
 
 def oxford_comma(strings)
-  last_index = strings.pop
-  
+  last_word = strings.pop
+  strings.join
   puts strings
-  puts last_index
+  puts last_word
 end
