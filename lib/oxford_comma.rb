@@ -5,7 +5,11 @@
 #concat both strings
 
 def oxford_comma(strings)
-  last_word = strings.pop
-  initial_words = strings.join(", ")
-  puts
+  if strings.length > 2
+    last_word = strings.pop
+    initial_words = strings.join(", ")
+    "#{initial_words}, #{last_word}"
+  else
+    strings.join("and")
+  end
 end
